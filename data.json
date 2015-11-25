@@ -1,12 +1,110 @@
 {
+	"surveyGroups": [
+		{
+			"id":0,
+			"name":"default"
+		}
+	],
+
+
+
+
 	"surveys": [
 		{
-			"id": 1,
+			"id":0,
+			"surveyGroupId": 0,
 			"name": "preSurvey"
 		},
 		{
-			"id": 2,
+			"id": 1,
+			"surveyGroupId": 0,
 			"name": "mainSurvey"
 		}
+	],
+
+	"questionGroups": [
+		{
+			"id":0,
+			"surveyId":0,
+			"name":"",
+			"label": "",
+			"shortDesc": "",
+			"longDesc": "",
+			"questions": [
+				{
+					"id": 0,
+					"question": "In order to personalize your advance care plan, we would like to learn about your current state of health. In general, how would you rate your health?",
+					"type": "radio",
+					"options": [
+						{
+							"id":0,
+							"value": "Excellent"
+						},
+						{
+							"id":1,
+							"value": "Very Good"
+						},
+						{
+							"id":2,
+							"value": "Good"
+						},
+						{
+							"id":3,
+							"value": "Fair"
+						},
+						{
+							"id":4,
+							"value": "Poor"
+						}
+					]
+				},
+				{
+					"id": 1,
+					"question": "Have you been admitted to the hospital more than two times in the past 12 months?",
+					"type": "radio",
+					"options": [
+						{
+							"id":5,
+							"value": "Yes"
+						},
+						{
+							"id":6,
+							"value": "No"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"question": "Do you take more than eight prescriptions on a regular basis? (This does not include over-the-counter medicine you can get without a doctor's prescription.)",
+					"type": "radio",
+					"options": [
+						{
+							"id":7,
+							"value": "Yes"
+						},
+						{
+							"id":8,
+							"value": "No"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"question": "Do you have more than four different doctors you see on a regular basis?",
+					"type": "radio",
+					"options": [
+						{
+							"id":9,
+							"value": "Yes"
+						},
+						{
+							"id":10,
+							"value": "No"
+						}
+					]
+				}
+			]
+		}
 	]
+
 }
